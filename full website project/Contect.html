@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="with=device-width , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family
+        =Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <title>University web</title>
+    <script src="https://kit.fontawesome.com/6ba3e40111.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+<body>
+    <!-- ----------header--------- -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+
+            <div class="nav-links" id="navlinks">
+
+                <i class="fa fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="About.html">About</a>
+                    </li>
+                    <li>
+                        <a href="Course.html">Coures</a>
+                    </li>
+                    <li>
+                        <a href="Blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="Contect.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>CONTECT US</h1>
+
+    </section>
+
+    <!-- ------ contect us ----- -->
+
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109823.37708206289!2d73.0947367!3d30.662676649999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922b62cd8405a6d%3A0x6cce79c0f78cbfb7!2sSahiwal%2C%20Sahiwal%20District%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2sus!4v1724282698767!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contect-us">
+        <div class="row">
+
+            <div class="contect-col">
+
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Sahiwal ,Punjab</h5>
+                        <p>Sahiwal ,Punjab, lahore</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>03090690470</h5>
+                        <p>Monday to saturday , 8pm to 4pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>hamzau2196@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contect-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="ENTER your name" required>
+                    <input type="email" name="email" placeholder="ENTER email adress" required>
+                    <input type="text" name="subject" placeholder="ENTER YOUR subject" required>
+                    <textarea rows="8" name="Message" placeholder="Massage" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ----------Footer------- -->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur quas dolorum exercitationem eius nulla
+            molestiae.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made By H A M Z A</p>
+    </section>
+
+
+
+
+
+    <!---------- JAVA SCRIPT for toggle manu --------->
+    <script>
+
+        let navlinks = document.getElementById("navlinks")
+
+        function showmenu() {
+
+            navlinks.style.right = "0"
+
+        }
+        function hidemenu() {
+
+            navlinks.style.right = "-200px"
+
+        }
+
+
+    </script>
+
+</body>
+
+
+</html>

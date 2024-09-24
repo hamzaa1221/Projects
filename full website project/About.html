@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="with=device-width , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family
+        =Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <title>University web</title>
+    <script src="https://kit.fontawesome.com/6ba3e40111.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+<body>
+    <!-- ----------header--------- -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+
+            <div class="nav-links" id="navlinks">
+
+                <i class="fa fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="About.html">About</a>
+                    </li>
+                    <li>
+                        <a href="Course.html">Coures</a>
+                    </li>
+                    <li>
+                        <a href="Blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="Contect.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>ABOUT US</h1>
+
+    </section>
+
+    <!-- ------ About us ----- -->
+
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest University</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                    quas voluptatum, corporis aliquam optio excepturi quaerat incidunt
+                    dolorem explicabo ducimus atque sed velit doloremque, sit molestias iure enim adipisci,
+                    unde in a. Porro dolore blanditiis laudantium consectetur. Facilis, quos maiores.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ----------Footer------- -->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur quas dolorum exercitationem eius nulla
+            molestiae.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made By H A M Z A</p>
+    </section>
+
+
+
+
+
+    <!---------- JAVA SCRIPT for toggle manu --------->
+    <script>
+
+        let navlinks = document.getElementById("navlinks")
+
+        function showmenu() {
+
+            navlinks.style.right = "0"
+
+        }
+        function hidemenu() {
+
+            navlinks.style.right = "-200px"
+
+        }
+
+
+    </script>
+
+</body>
+
+
+</html>
