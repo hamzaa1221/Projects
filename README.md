@@ -6,7 +6,7 @@ As a passionate front-end web developer, I have honed my skills by building smal
 ## Projects List 
 ### Calculator
 
-![Calculator](https://github.com/user-attachments/assets/75112956-8f91-4990-954d-e61318c6c5eb)
+[Calculator](https://github.com/user-attachments/assets/75112956-8f91-4990-954d-e61318c6c5eb)
 
 ### Experience Highlights
 #### About:
