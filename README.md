@@ -98,7 +98,7 @@ In developing this real-time clock application, I focused on logic building, UI/
 - Ui/Ux
 ***
 ### 10) Hide And Show Password 
-[Hide And Show Password](https://github.com/user-attachments/assets/22d9a611-23d8-48ac-b891-453cd4058a88)
+[Hide And Show Password](https://github.com/user-attachments/assets/659830b1-b4ea-4fc9-a4d1-4b87e5be1f6d)
 ### Experience Highlights
 #### About this project
 In creating the hide and show password functionality, I enhanced my skills in logic building, user interface design, and UI/UX principles. This project involved developing a seamless user experience that allows users to toggle the visibility of their passwords easily. I focused on ensuring that the feature is intuitive and secure while maintaining a visually appealing design, ultimately improving user confidence and satisfaction during the login process.
